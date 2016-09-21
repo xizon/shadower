@@ -1,0 +1,65 @@
+/*
+
+	---------------------------
+	Load our IE specific stylesheet for a range of older versions
+	---------------------------
+
+	TABLE OF CONTENTS
+	---------------------------
+	
+	1. Loader  
+	2. Title of List    
+	3. Button
+	
+	
+*/
+
+
+/* ====================================================== 
+   1. Loader                          
+/* ====================================================== */
+.loader .spinner {
+	display: none;
+}
+
+
+/* ====================================================== 
+   2. Title of List                              
+/* ====================================================== */
+
+.title-style-fieldset {
+	border-top: 2px solid #333;
+}
+
+.title-style-fieldset h4 {
+	margin-top: 0;
+}
+
+.title-style-fieldset h5 {
+	padding-top: .2em;
+}
+
+
+
+.title-style-fieldset h5:before,
+.title-style-fieldset h5:after {
+	display: none;
+	
+}
+
+.sticky .title-style-fieldset:before {
+    top: 0;
+}
+
+
+/* ====================================================== 
+   3. Button                 
+/* ====================================================== */
+.button-hover {
+	color: #fff;
+	border-color: #333 !important;
+}
+.button-hover.level::before {
+	background: none;
+}
+

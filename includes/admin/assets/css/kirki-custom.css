@@ -1,0 +1,57 @@
+/*Kirki tips*/
+.kirki-tipbox {
+    background: #333;
+    color: #e0e0e0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+	padding: 5px;
+	width: calc(100% - 10px );
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	border-radius: 2px;
+	
+}
+
+.kirki-tipbox pre {
+    padding: 3px;
+}
+
+
+
+.kirki-tipbox a {
+    color: #ecc6c6;
+}
+
+.kirki-tipbox strong,
+.kirki-tipbox b {
+    color: #fff;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.kirki-tipbox code {
+    background: #434343;
+    color: #989898;
+}
+
+.kirki-tipbox pre {
+    overflow: auto;
+}
+
+
+/*Icons*/
+.fa {
+    margin-right: 5px;
+    color: #C2C2C2;
+    font-size: 16px;
+}
+
+/*Tips*/
+.hint:after,[data-hint]:after {
+    text-align: left;
+}
+
+.hint code,.hint b,
+.hint strong {
+    color: #f00;
+}

@@ -1,0 +1,73 @@
+/*
+	Theme Name: Shadower
+	
+	Adding support for language written in a Right To Left (RTL) direction is easy -
+	it's just a matter of overwriting all the horizontal positioning attributes
+	of your CSS stylesheet in a separate stylesheet file named rtl.css.
+	
+	http://codex.wordpress.org/Right_to_Left_Language_Support
+	
+	
+	---------------------------
+	TABLE OF CONTENTS
+	---------------------------
+	
+	1. Basic
+	2. Content & Sidebar           
+	3. Comments
+	4. FlexSlider
+	
+*/
+
+
+/* ====================================================== 
+   1. Basic                               
+/* ====================================================== */
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+    text-align: right;
+}
+
+/* ====================================================== 
+   2. Content & Sidebar                               
+/* ====================================================== */
+.uix-portfolio-widget .uix-portfolio-recent-item .item-thumb {
+    float: right;
+    margin-right: auto;
+    margin-left: 1em;
+    text-align: right;
+}
+
+.uix-portfolio-widget .uix-portfolio-recent-item .item-info {
+    float: right;
+}
+
+.widget_calendar caption {
+    text-align: right;
+}
+
+.widget_calendar #next {
+    text-align: left;
+}
+
+/* ====================================================== 
+   3. Comments                            
+/* ====================================================== */
+.comment-avatar {
+    float: right;
+    margin: 0 0 0 1.5em;
+}
+
+/* ====================================================== 
+   4. FlexSlider                            
+/* ====================================================== */
+.flexslider,
+.custom-theme-flexslider {
+    direction: ltr;
+}
