@@ -18,8 +18,9 @@
                          * Display custom copyright
                          *
                         */ 
-                        echo wp_kses_decode_entities( get_theme_mod( 'custom_copyright', '&copy; '.shadower_wp_kses( __( 'Copyright', 'shadower' ) ).' 2016 &middot; <a href="'.esc_url( home_url( '/' ) ).'" title="'.esc_attr( get_bloginfo( 'name' ) ).'">'.shadower_wp_kses( get_bloginfo( 'name' ) ).'</a> | <a href="'.esc_url( __( 'https://wordpress.org/', 'shadower' ) ).'">'.sprintf( __( 'Powered by %s', 'shadower' ), 'WordPress' ).'</a> <br> <a href="'.esc_url( __( 'https://uiux.cc/', 'shadower' ) ).'">'.sprintf( __( 'Designed by %s', 'shadower' ), 'UIUX Lab' ).'</a>' ) );
+                        echo wp_kses_decode_entities( get_theme_mod( 'custom_copyright', '&copy; '.shadower_wp_kses( __( 'Copyright', 'shadower' ) ).' 2016 &middot; <a href="'.esc_url( home_url( '/' ) ).'" title="'.esc_attr( get_bloginfo( 'name' ) ).'">'.shadower_wp_kses( get_bloginfo( 'name' ) ).'</a>' ) );
                         ?>
+                        | <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'shadower' ) ); ?>"><?php echo sprintf( __( 'Powered by %s', 'shadower' ), 'WordPress' ); ?></a> | <a href="<?php echo esc_url( __( 'https://uiux.cc', 'shadower' ) ); ?>"><?php echo sprintf( __( 'Theme by %s', 'shadower' ), 'UIUX Lab' ); ?></a>
                         
                     </div>
                     <div class="col-md-4 t-c">

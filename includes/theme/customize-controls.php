@@ -97,7 +97,7 @@ if ( class_exists( 'Kirki' ) ) {
 		'label'       => shadower_wp_kses( __( 'Copyright Info', 'shadower' ) ),
 		'description' => shadower_wp_kses( __( 'Add custom copyright info to WordPress footer <br>(Support HTML tags)', 'shadower' ) ),
 		'section'     => 'panel-theme-general',
-		'default'     => '&copy; '.shadower_wp_kses( __( 'Copyright', 'shadower' ) ).' 2016 &middot; <a href="'.esc_url(home_url('/')).'" title="'.get_bloginfo( 'name' ).'">'.get_bloginfo( 'name' ).'</a> | <a href="'.esc_url( shadower_wp_kses( __( 'https://wordpress.org/', 'shadower' ) ) ).'">'.sprintf( shadower_wp_kses( __( 'Powered by %s', 'shadower' ) ), 'WordPress' ).'</a><br><a href="'.esc_url( __( 'https://uiux.cc/', 'shadower' ) ).'">'.sprintf( __( 'Designed by %s', 'shadower' ), 'UIUX Lab' ).'</a>',
+		'default'     => '&copy; '.shadower_wp_kses( __( 'Copyright', 'shadower' ) ).' 2016 &middot; <a href="'.esc_url(home_url('/')).'" title="'.get_bloginfo( 'name' ).'">'.get_bloginfo( 'name' ).'</a>',
 		'priority'    => 10,
 		'sanitize_callback' => 'shadower_kirki_do_not_filter_anything',//Allowing html in text
 	) );
@@ -158,30 +158,6 @@ if ( class_exists( 'Kirki' ) ) {
 			'no-sidebar' => esc_url( UIX_THEME_ADMIN_ASSETS_URL . '/images/layouts/no-sidebar.png' ),
 		),
 	) );
-	
-	/*
-	Kirki::add_field( $shadower_kirki_config_id, array(
-		'type'        => 'switch',
-		'settings'    => 'custom_blog_infinitescroll_list',
-		'label'       => shadower_wp_kses( __( 'Add Infinite Scroll to Your Blog', 'shadower' ) ),
-		'description' => shadower_wp_kses( __( 'Automatically append the next page of posts (via AJAX) to your page when a user scrolls to the bottom or clicks button of loading from the bottom.', 'shadower' ) ),
-		'section'     => 'panel-theme-post',
-		'default'     => false,
-		'priority'    => 10,
-	) );
-
-	
-	Kirki::add_field( $shadower_kirki_config_id, array(
-		'type'        => 'switch',
-		'settings'    => 'custom_blog_infinitescroll_eff',
-		'label'       => shadower_wp_kses( __( 'Infinite Scrolling Occurs when You Scroll to The Bottom', 'shadower' ) ),
-		'description' => shadower_wp_kses( __( 'Close to the bottom the refresh occurs, and this option acts on posts. When this option is enabled, you will see the effect.', 'shadower' ) ),
-		'section'     => 'panel-theme-post',
-		'default'     => false,
-		'priority'    => 10,
-	) );
-	*/
-
 	
 	
 	

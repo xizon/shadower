@@ -6,6 +6,13 @@ This theme item is entirely licensed under the General Public License(GPL).
 
 ****** Changelog ******
 
+= 1.4 =
+
+September 22, 2016
+
+
+* Fix: Fixed some bugs.
+
 
 = 1.3 =
 
