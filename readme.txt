@@ -6,6 +6,14 @@ This theme item is entirely licensed under the General Public License(GPL).
 
 ****** Changelog ******
 
+= 1.5 =
+
+October 17, 2016
+
+* Optimized for tablet display
+
+
+
 = 1.4 =
 
 September 22, 2016

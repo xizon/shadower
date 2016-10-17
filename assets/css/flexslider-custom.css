@@ -207,7 +207,7 @@ html[xmlns] .custom-theme-flexslider .custom-theme-slides {
 	position: relative;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
 	
 	.custom-theme-flexslider.custom-primary-flexslider {
 		display: none;
@@ -244,7 +244,7 @@ html[xmlns] .custom-theme-flexslider .custom-theme-slides {
 }
 
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
 
 	.custom-theme-flexslider.custom-primary-flexslider .custom-theme-slides > .item .slides-info .container .level-1 {
 		font-size: 1.625em !important;
