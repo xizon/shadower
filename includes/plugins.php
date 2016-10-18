@@ -30,17 +30,17 @@ if( !function_exists( 'shadower_require_plugins' ) ) {
 			array(
 				'name'               => 'Uix Shortcodes', 
 				'slug'               => 'uix-shortcodes', 
-				'source'             => 'https://downloads.wordpress.org/plugin/uix-shortcodes.1.0.6.zip',
+				'source'             => 'https://downloads.wordpress.org/plugin/uix-shortcodes.1.1.0.zip',
 				'required'           => true, 
-				'version'            => '1.0.6'
+				'version'            => '1.1.0'
 			),
 		
 			array(
 				'name'               => 'Uix Slideshow', 
 				'slug'               => 'uix-slideshow', 
-				'source'             => 'https://github.com/xizon/Uix-Slideshow/archive/master.zip',
+				'source'             => 'https://downloads.wordpress.org/plugin/uix-slideshow.1.0.1.zip',
 				'required'           => true,
-				'version'            => '1.0.0'
+				'version'            => '1.0.1'
 			),
 				
 			

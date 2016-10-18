@@ -223,6 +223,7 @@ img.uix-sc-img,
 	max-width: none !important;
 	padding: 0 15px !important;
 	position: relative;
+	overflow: hidden;
 
 }
 
