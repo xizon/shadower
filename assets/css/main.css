@@ -1528,14 +1528,14 @@ ul.menu-main ul.sub-menu .nav-arrow {
 
 .social-btn,
 .social-btn-colourful,
-.social-btn li
+.social-btn li,
 .social-btn-colourful li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.social-btn li
+.social-btn li,
 .social-btn-colourful li {
     display: inline-block;
     *display: inline;
