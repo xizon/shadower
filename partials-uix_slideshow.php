@@ -15,12 +15,6 @@ if ( ! class_exists( 'UixSlideshow' ) ) {
     return;
 }
 
-
-// Important: This variable with this plugin's customizer linking
-global $slideshow_prefix;
-$slideshow_prefix = 'custom-theme';
-
-
 // Query
 $uix_slideshow_query = new WP_Query(
 	array(
@@ -32,13 +26,11 @@ $uix_slideshow_query = new WP_Query(
 
 ?>
 
-
 <?php if ( $uix_slideshow_query->posts && is_array ( $uix_slideshow_query->posts ) ) {  ?>
             
-    <div class="custom-theme-flexslider custom-primary-flexslider">
+    <div data-uix-slideshow="1" data-prefix="custom-theme" class="custom-theme-flexslider custom-primary-flexslider">
         <div class="custom-theme-slides">
-        
-        
+   
             <?php
                 // Loop through each item
                 foreach( $uix_slideshow_query->posts as $post ) : setup_postdata( $post ); ?>

@@ -531,9 +531,17 @@ theme = ( function ( theme, $, window, document ) {
 
 			//Prevent to <a> of page transitions
 			$( 'a' ).each( function() {
-				if  ( $( this ).attr( 'href' ).indexOf( '/#' ) >= 0   || $( this ).attr( 'href' ) == '#' ) {
-					$( this ).attr( 'data-normal', 1 ); 
-				 }
+				var attr = $( this ).attr( 'href' );
+				if ( typeof attr === typeof undefined ) {
+					$( this ).attr( 'href', '#' );
+				}
+				
+				
+				if ( typeof attr !== typeof undefined && attr !== false ) {
+					if  ( $( this ).attr( 'href' ).indexOf( '/#' ) >= 0   || $( this ).attr( 'href' ) == '#' ) {
+						$( this ).attr( 'data-normal', 1 ); 
+					 }	
+				}
 			});
 			
 		
@@ -720,22 +728,6 @@ theme = ( function ( theme, $, window, document ) {
 			before: initslidesLightbox //Fires after each slider animation completes
 		});
 		
-		$( '.custom-primary-flexslider' ).flexslider({
-			namespace	      : 'custom-theme-flex-',
-			animation         : 'slide',
-			selector          : '.custom-theme-slides > div.item',
-			controlNav        : true,
-			smoothHeight      : true,
-			prevText          : "<i class='fa fa-chevron-left custom-primary-flexslider-prev'></i>",
-			nextText          : "<i class='fa fa-chevron-right custom-primary-flexslider-next'></i>",
-			animationSpeed    : 600,
-			slideshowSpeed    : 10000,
-			slideshow         : true,
-			animationLoop     : true,
-		    //start: initslides, //Fires when the slider loads the first slide
-			//before: initslides //Fires after each slider animation completes
-		});
-	
 	
         function initslidesLightbox( slider ) {
 			slider.slides.find( "a[rel^='theme-slider-prettyPhoto']" ).prettyPhoto({
@@ -744,15 +736,16 @@ theme = ( function ( theme, $, window, document ) {
 				 slideshow:          3000,
 				 utoplay_slideshow:  false
 			 });
+			//Prevent to <a> of page transitions
+			$( 'a' ).each( function() {
+				var attr = $( this ).attr( 'href' );
+				
+				if ( typeof attr === typeof undefined ) {
+					$( this ).attr( 'href', '#' );
+				}
+			});	
+			
         }
-	
-        function initslides( slider ) {
-            $.each( slider.slides, function( i, item ) {
-                var el = $( item );
-				el.find( '.slides-info' ).css( {'margin-top': ( el.find( 'img' ).height() - el.find( '.container' ).height() ) / 2 + 'px' } );	
-            })
-        }
-	
 		
 	};
 	

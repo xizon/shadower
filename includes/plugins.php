@@ -22,25 +22,25 @@ if( !function_exists( 'shadower_require_plugins' ) ) {
 			array(
 				'name'               => 'Kirki', 
 				'slug'               => 'kirki', 
-				'source'             => 'https://downloads.wordpress.org/plugin/kirki.2.3.6.zip',
+				'source'             => 'https://downloads.wordpress.org/plugin/kirki.2.3.7.zip',
 				'required'           => true, 
-				'version'            => '2.3.6'
+				'version'            => '2.3.7'
 			),
 	
 			array(
 				'name'               => 'Uix Shortcodes', 
 				'slug'               => 'uix-shortcodes', 
-				'source'             => 'https://downloads.wordpress.org/plugin/uix-shortcodes.1.1.0.zip',
+				'source'             => 'https://downloads.wordpress.org/plugin/uix-shortcodes.1.3.0.zip',
 				'required'           => true, 
-				'version'            => '1.1.0'
+				'version'            => '1.3.0'
 			),
 		
 			array(
 				'name'               => 'Uix Slideshow', 
 				'slug'               => 'uix-slideshow', 
-				'source'             => 'https://downloads.wordpress.org/plugin/uix-slideshow.1.0.1.zip',
+				'source'             => 'https://downloads.wordpress.org/plugin/uix-slideshow.1.0.5.zip',
 				'required'           => true,
-				'version'            => '1.0.1'
+				'version'            => '1.0.5'
 			),
 				
 			
