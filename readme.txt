@@ -6,11 +6,21 @@ This theme item is entirely licensed under the General Public License(GPL).
 
 ****** Changelog ******
 
+= 2.0 =
+
+December 28, 2016
+
+* Optimized for shortcodes.
+* Optimized for slideshow.
+* Improved the running speed.
+* WordPress 4.7 compatible.
+
+
 = 1.5 =
 
 October 17, 2016
 
-* Optimized for tablet display
+* Optimized for tablet display.
 
 
 
@@ -26,8 +36,8 @@ September 22, 2016
 
 September 21, 2016
 
-* New: Supports online update
-* Fix: Updated some stylesheet
+* New: Supports online update.
+* Fix: Updated some stylesheet.
 
 
 
@@ -35,8 +45,8 @@ September 21, 2016
 
 September 20, 2016
 
-* OPTIMIZE: Optimized for theme customization
-* Fix: Updated some stylesheet
+* OPTIMIZE: Optimized for theme customization.
+* Fix: Updated some stylesheet.
 
 
 
@@ -44,4 +54,4 @@ September 20, 2016
 
 September 8, 2016
 
-* Initial version
+* Initial version.
