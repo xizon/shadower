@@ -41,3 +41,6 @@ require_once UIX_THEME_INC_PATH . '/functions/internal/menu-attributes.php';
 
 //Initialize the update checker
 require_once UIX_THEME_INC_PATH . '/functions/update/automatic-theme-plugin-update.php';
+if ( $pagenow == 'update-core.php' ) {
+    set_site_transient( 'update_themes', null );
+}
