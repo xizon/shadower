@@ -23,7 +23,7 @@ Shadower is a beautiful and full responsive blog WordPress theme for displaying 
 
 ### Feature List:
 
-*   WordPress 4.6.1 compatible
+*   WordPress 4.7 compatible
 *   Page Transitions Effect
 *   100% Responsive & Mobile Ready
 *   Featured Slideshow Support
@@ -41,10 +41,16 @@ Shadower is a beautiful and full responsive blog WordPress theme for displaying 
 *   600+ Google Fonts Choice
 *   6 Post Formats for Blog – (Standard, Video, Quote, Link, Audio, Gallery)
 *   2 Premade Blog Layouts for List Pages
-*   22+ Custom Shortcodes
+*   26+ Custom Shortcodes
 
 
 ### Changelog
+
+#### = 2.1 =
+
+* Optimized for slideshow.
+* Optimized for gallery post type.
+
 
 #### === 2.0 ===
 
