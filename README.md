@@ -7,6 +7,7 @@ Copyright (c) 2016 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
 
 [Theme URI](https://uiux.cc/products-item/shadower-a-clean-beautiful-responsive-wordpress-blog-theme/)
 
+[PRO ($44)](https://uiux.cc/wp-theme-demo/shadower-pro-landing-page/)
 
 
 ### Licensing
@@ -23,7 +24,7 @@ Shadower is a beautiful and full responsive blog WordPress theme for displaying 
 
 ### Feature List:
 
-*   WordPress 4.7 compatible
+*   WordPress 4.7.* compatible
 *   Page Transitions Effect
 *   100% Responsive & Mobile Ready
 *   Featured Slideshow Support
@@ -46,7 +47,15 @@ Shadower is a beautiful and full responsive blog WordPress theme for displaying 
 
 ### Changelog
 
-#### = 2.1 =
+#### === 2.2 ===
+
+* Compatible with low version PHP (5.3+)
+* Fixed some minor errors in the low version of PHP.
+* Optimized mobile navigation.
+
+
+
+#### === 2.1 ===
 
 * Optimized for slideshow.
 * Optimized for gallery post type.
