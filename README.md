@@ -47,6 +47,13 @@ Shadower is a beautiful and full responsive blog WordPress theme for displaying 
 
 ### Changelog
 
+#### === 2.3 ===
+
+* Optimized admin panel.
+* Upgraded shortcodes plugin.
+
+
+
 #### === 2.2 ===
 
 * Compatible with low version PHP (5.3+)
