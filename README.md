@@ -7,12 +7,12 @@ Copyright (c) 2016 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
 
 [Theme URI](https://uiux.cc/products-item/shadower-a-clean-beautiful-responsive-wordpress-blog-theme/)
 
-[PRO ($44)](https://uiux.cc/wp-theme-demo/shadower-pro-landing-page/)
+[PRO ($35)](https://uiux.cc/wp-theme-demo/shadower-pro-landing-page/)
 
 
 ### Licensing
 
-Licensed under the [GPL3.0](http://www.gnu.org/licenses/gpl-3.0.en.html).
+Licensed under the GPLv2 or later
 
 ### Description
 
@@ -24,28 +24,40 @@ Shadower is a beautiful and full responsive blog WordPress theme for displaying 
 
 ### Feature List:
 
-*   WordPress 4.7.* compatible
-*   Page Transitions Effect
-*   100% Responsive & Mobile Ready
-*   Featured Slideshow Support
-*   Retina Ready for Theme Pages
-*   Quick & Easy Customization
-*   Custom Headers Built To Your Specifications
-*   Translation Ready
-*   Google Map & Google Analytics
-*   Quickly Choose from Our Premade Layouts and Options with Blog (Fast and Easy Switching Simply by Clicking a Mouse)
-*   Put a Shortcode Anywhere You Like, Even Outside of Posts and Pages
-*   Support logos & Copyright Information for Your Business or Brand
-*   Support Setting Body, Heading, Menu and Brand Typography with Google Fonts
-*   Contact, Custom Page Style Support
-*   500+ Icons in Font Awesome (Include Social Icon)
-*   600+ Google Fonts Choice
-*   6 Post Formats for Blog – (Standard, Video, Quote, Link, Audio, Gallery)
-*   2 Premade Blog Layouts for List Pages
-*   26+ Custom Shortcodes
+* Page Transitions Effect
+* 100% Responsive & Mobile Ready
+* Featured Slideshow Support
+* Retina Ready for Theme Pages
+* Quick & Easy Customization
+* Custom Headers Built To Your Specifications
+* Translation Ready
+* Google Map
+* Quickly Choose from Our Premade Layouts and Options with Blog (Fast and Easy Switching Simply by Clicking a Mouse)
+* Put a Shortcode Anywhere You Like, Even Outside of Posts and Pages
+* Support logos & Copyright Information for Your Business or Brand
+* Support Setting Body, Heading, Menu and Brand Typography with Google Fonts
+* Contact, Custom Page Style Support
+* 500+ Icons in Font Awesome (Include Social Icon)
+* 600+ Google Fonts Choice
+* 6 Post Formats for Blog – (Standard, Video, Quote, Link, Audio, Gallery)
+* 2 Premade Blog Layouts for List Pages
+* 26+ Custom Shortcodes
+* The GPL v2.0 or later license. :) Use it to make something cool.
+
+For more information about Shadower please go to https://uiux.cc
+
 
 
 ### Changelog
+
+#### === 2.4 ===
+
+* Removed files & functions of plugin territory.
+* Optimized mobile navigation and primary navigation. 
+* Optimized paging style for single pages. 
+* Optimized nested comments on mobile. 
+
+
 
 #### === 2.3 ===
 
