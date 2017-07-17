@@ -7,7 +7,8 @@ Copyright (c) 2016 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
 
 [Theme URI](https://uiux.cc/products-item/shadower-a-clean-beautiful-responsive-wordpress-blog-theme/)
 
-[PRO ($35)](https://uiux.cc/wp-theme-demo/shadower-pro-landing-page/)
+[Download on WP.org](https://wordpress.org/themes/shadower/)
+
 
 
 ### Licensing
@@ -50,72 +51,115 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
-#### === 2.4 ===
+
+#### = 2.7.6 =
+
+July 16, 2017
+
+* Remove the escape return value from function.
+* Use esc_html() to escape property value on css(Replace esc_attr).
+* fix the escape return value from image URL.
+
+#### = 2.7.5 =
+
+July 7, 2017
+
+* Fixed all the listed error from reviewer.
+* [new] Remove the custom excerpt function using the core function the_excerpt() instead.
+* [new] Remove unnecessary classes and functions.
+* [new] Re-check the dynamic data, and escaped for the context where it is rendered.
+* [new] Tested the links on an archive page are responding correctly to keyboard. And there is no script to interference. (Not a Bug)
+* [new] The mobile navigation supports the secondary menu using dropdown. (More levels will be displayed directly, Not a Bug)
+* [new] Custom footer menu only supported top level. (Not a Bug)
+* [new] Add clear floating element after the content area.
+* [new] Optimize blockquote, li, hr tags in the content area.
+* [new] Increase the font size of the Single Page and Normal Page.
+* [new] Fix a bug that the search results shows a post’s category above the title which is just a white space in the line.
+* [new] Fix a bug for the Custom Menu widget in my sidebar does not show the structure of the menu.
+* [new] Rename the page templates so that they do not start with “page-“.
+* [new] Optimize the 404 page.
+* [new] Optimize the styles and scripts on required admin pages.
+* [new] Optimize front-end styles. (Some of the more subjective personal preferences are not completely modified.)
+* [new] Optimize Archive Pages’s categories area.
+
+#### = 2.5 =
+
+March 26, 2017
 
 * Removed files & functions of plugin territory.
-* Optimized mobile navigation and primary navigation. 
-* Optimized paging style for single pages. 
-* Optimized nested comments on mobile. 
+* Optimized mobile navigation and primary navigation.
+* Optimized paging style for single pages.
+* Optimized nested comments on mobile.
+* Fixed some bugs of the primary navigation style.
+* Re-checked the dynamic data, and escaped for the context where it is rendered.
+* All scripts and styles added the theme with wp_enqueue_* hook and wp_add_inline_* hook.
+* Improved several user experiences:
+* Highlight the post edit link of single pages.
+* Minimized and compressed assets for core front-end javascript files, which also reduces the load on your server. Keep the original file simultaneously.
 
+#### = 2.3 =
 
-
-#### === 2.3 ===
+March 19, 2017
 
 * Optimized admin panel.
 * Upgraded shortcodes plugin.
 
+#### = 2.2 =
 
-
-#### === 2.2 ===
+March 15, 2017
 
 * Compatible with low version PHP (5.3+)
 * Fixed some minor errors in the low version of PHP.
 * Optimized mobile navigation.
 
+#### = 2.1 =
 
-
-#### === 2.1 ===
+February 18, 2017
 
 * Optimized for slideshow.
 * Optimized for gallery post type.
 
+#### = 2.0 =
 
-#### === 2.0 ===
+December 28, 2016
 
 * Optimized for shortcodes.
 * Optimized for slideshow.
 * Improved the running speed.
 * WordPress 4.7 compatible.
 
+#### = 1.5 =
 
-#### === 1.5 ===
+October 17, 2016
 
 * Optimized for tablet display.
 
+#### = 1.4 =
 
-
-#### === 1.4 ===
+September 22, 2016
 
 * Fix: Fixed some bugs.
 
+#### = 1.3 =
 
-#### === 1.3 ===
+September 21, 2016
 
 * New: Supports online update.
 * Fix: Updated some stylesheet.
 
+#### = 1.2 =
 
-
-#### === 1.2 ===
+September 20, 2016
 
 * OPTIMIZE: Optimized for theme customization.
 * Fix: Updated some stylesheet.
 
+#### = 1.0 =
 
-
-#### === 1.0 ===
+September 8, 2016
 
 * Initial version.
+
 
 
 
@@ -127,7 +171,8 @@ For more information about Shadower please go to https://uiux.cc
 - WP 4.4.2
 - WP 4.5.*
 - WP 4.6.*
-- WP 4.7
+- WP 4.7.*
+- WP 4.8
 
 
 ###Screenshot
