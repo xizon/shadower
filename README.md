@@ -7,7 +7,10 @@ Copyright (c) 2016 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
 
 [Theme URI](https://uiux.cc/products-item/shadower-a-clean-beautiful-responsive-wordpress-blog-theme/)
 
-[Download on WP.org](https://wordpress.org/themes/shadower/)
+[Download on wordpress.org](https://wordpress.org/themes/shadower/)
+
+[Pro Version](https://themeforest.net/item/shadower-pro-a-clean-responsive-wordpress-theme-for-bloggers/19492090?ref=UIUXLab)
+
 
 
 
