@@ -54,24 +54,6 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
-#### = 2.7.9 =
-
-November 24, 2017
-
-* Fixed a bug for the website in IE11 browser loading.
-
-
-
-#### = 2.7.7 =
-
-September 23, 2017
-
-* Support page builder to create 6 one-page templates. (Need Uix Page Builder plugin)
-* Optimized the page template for "Contact".
-* Add callback for custom TinyMCE editor RTL stylesheets.
-
-
-
 
 #### = 2.7.6 =
 
@@ -193,8 +175,7 @@ September 8, 2016
 - WP 4.5.*
 - WP 4.6.*
 - WP 4.7.*
-- WP 4.8.*
-- WP 4.9
+- WP 4.8
 
 
 ###Screenshot
