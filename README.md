@@ -1,7 +1,7 @@
 # Shadower
 This is a free WordPress Theme by UIUX Lab. Clean & Beautiful Responsive WordPress Blog Theme
 
-Copyright (c) 2016 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
+Copyright (c) 2019 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
 
 [Donate Me](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PYZLU7UZNQ6CE)
 
@@ -53,6 +53,16 @@ For more information about Shadower please go to https://uiux.cc
 
 
 ### Changelog
+
+#### = 2.8.0 =
+
+January 21, 2019
+
+* New: Adding Gutenberg support that some blocks such as the image block have the possibility to define a “wide” or “full” alignment. 
+* Fix: Solved some problems under PHP7 and Gutenberg.
+* Tweak: Compatible with higher version of WordPress system, ready for version 5.0.
+* Tweak: Compatible with Gutenberg Editor. The plugins used by the theme was also updated on wordpress.org.
+
 
 #### = 2.7.9 =
 
