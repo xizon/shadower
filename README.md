@@ -54,6 +54,14 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
+#### = 2.8.2 =
+
+* Remove: Removed the plugin `jquery.flexslider` using native js instead.
+* Remove: Removed Page Transitions effect.
+* Tweak: Upgraded Uix Slideshow plugin.
+
+
+
 #### = 2.8.0 =
 
 January 21, 2019
