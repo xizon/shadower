@@ -54,7 +54,7 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
-#### = 2.8.3 =
+#### = 2.8.5 =
 
 * Fix: Fixed a bug for icon display.
 
