@@ -54,6 +54,11 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
+#### = 2.8.3 =
+
+* Fix: Fixed a bug for icon display.
+
+
 #### = 2.8.2 =
 
 * Remove: Removed the plugin `jquery.flexslider` using native js instead.
