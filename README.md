@@ -54,6 +54,16 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
+#### = 2.8.6 =
+
+October 5, 2021
+
+* New: Add Google API key for map of contact page template.
+* Tweak: WordPress 5.8.* compatible.
+* Tweak: Optimized the core script.
+* Tweak:  Removed some unwanted plugins.
+
+
 #### = 2.8.5 =
 
 * Fix: Fixed a bug for icon display.
@@ -217,7 +227,17 @@ September 8, 2016
 - WP 4.6.*
 - WP 4.7.*
 - WP 4.8.*
-- WP 4.9
+- WP 4.9.*
+- WP 5.1.*
+- WP 5.2.*
+- WP 5.3.*
+- WP 5.4.*
+- WP 5.5.*
+- WP 5.6.*
+- WP 5.7.*
+- WP 5.8.*
+
+
 
 
 ###Screenshot
