@@ -54,6 +54,17 @@ For more information about Shadower please go to https://uiux.cc
 
 ### Changelog
 
+
+
+##### = 2.9.0 =
+
+January 13, 2025
+
+* Tweak: WordPress 6.7.* compatible.
+* Fix: Translation loading for the shadower domain was triggered too early.
+
+
+
 #### = 2.8.6 =
 
 October 5, 2021
@@ -236,7 +247,7 @@ September 8, 2016
 - WP 5.6.*
 - WP 5.7.*
 - WP 5.8.*
-
+- WP 6.7.*
 
 
 
